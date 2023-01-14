@@ -338,3 +338,71 @@ h6.footer-copy-right {
     color: #424242;
 }
 /*  */
+
+
+/* Responsive fort Mobile
+-------------------------- */
+@media all and (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+    
+    section {
+        width: 100%;
+        padding: 120px 38px;
+    }
+
+    /* Header responsive */
+    .header-menu {
+        position: relative;
+    }
+    nav {
+        justify-content: space-between;
+        margin-left: 39px;
+    }
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        right: -12px;
+        top: 0px;
+    }
+
+    p.header-descript {
+
+        padding: 17px 57px;
+    }
+    img.header-img {
+        width: 89%;
+    }
+    /* Quick feature responsive */
+    .quick-feature-container, .contact-container, .love-feature-container {
+        flex-direction: column;
+    }
+    .quick-feature-imgs {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+     {
+        flex-direction: column;
+    }
+    .love-feature-img-side {
+        width: 80%;
+        margin: auto;
+    }
+    .artitect-button-box {
+        position: absolute;
+        bottom: -116px;
+        left: 46px;
+    }
+
+    .some-facts-icon-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    /*  */
+    /*  */
+}
