@@ -442,8 +442,10 @@ h6.footer-copy-right {
   /* Sponsor responsive */
   .sponspors-img-box {
     flex-direction: column;
-    gap: 22px;
+    gap: 46px;
+    padding: 29px 0;
   }
+
   .sponsor-title-box {
     width: auto;
   }
