@@ -50,8 +50,10 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  width: 1440px;
+  margin: auto;
   padding: 50px 0;
 }
 
@@ -105,11 +107,13 @@ img.header-img {
 /*  */
 /*  */
 
-/* Feature section style */
+/* Quick Feature section style */
 .quick-feature-container {
   display: flex;
-  gap: 70px;
+  gap: 75px;
   align-items: center;
+  width: 1300px;
+  margin: auto;
 }
 
 .quick-feature-imgs {
@@ -321,8 +325,10 @@ h2.contact-title {
   padding: 11px;
   border-radius: 5px;
   border: none;
-
   border-bottom: 5px solid black;
+}
+.contact-form form .defoult-button {
+  margin-top: 12px;
 }
 /*  */
 /* Footer section */
@@ -392,7 +398,9 @@ h6.footer-copy-right {
   .contact-container,
   .love-feature-container {
     flex-direction: column;
+    width: auto;
   }
+
   .quick-feature-imgs {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
@@ -510,6 +518,9 @@ h6.footer-copy-right {
   .contact-container,
   .love-feature-container {
     flex-direction: column;
+  }
+  .quick-feature-container.container {
+    width: auto;
   }
   .quick-feature-imgs {
     width: 100%;
