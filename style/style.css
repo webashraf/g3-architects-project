@@ -259,6 +259,7 @@ h5.icon-box-subtitle {
 /*  */
 
 /* Sponsors style */
+
 .sponsor-title-box {
   text-align: center;
   width: 40%;
@@ -273,10 +274,12 @@ h2.sponspors-title {
 
 .sponspors-img-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
-
+.sponspors-img-box img {
+  filter: grayscale(100%);
+}
 /*  */
 /* Contact style */
 .contact-container {
