@@ -457,6 +457,130 @@ h6.footer-copy-right {
   /*  */
   /*  */
 }
-.hide {
-  display: none !important;
+/*  */
+/* Rsponsive for medium device */
+@media all and (min-width: 577px) and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+  section {
+    padding: 0px 23px;
+  }
+  .container {
+    width: 100%;
+  }
+
+  /* Header responsive */
+  .header-menu {
+    position: relative;
+  }
+  nav {
+    justify-content: space-between;
+    margin-left: 39px;
+  }
+  .header-banner {
+    padding: 100px 0px;
+  }
+  .header-menu ul {
+    margin-right: 29px;
+    background-color: #ffffff9c;
+    padding: 10px 26px;
+    gap: 15px;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: -12px;
+    top: -29px;
+  }
+  .header-logo h2 {
+    font-size: 30px;
+  }
+
+  p.header-descript {
+    padding: 17px 57px;
+  }
+  img.header-img {
+    width: 89%;
+  }
+  /* Quick feature responsive */
+  .quick-feature-container,
+  .contact-container,
+  .love-feature-container {
+    flex-direction: column;
+  }
+  .quick-feature-imgs {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .quick-feature-img {
+    width: 100%;
+  }
+  /*  */
+  /* Love feature */
+  .love-feature-text {
+    width: auto;
+    /* padding: 31px 41px; */
+  }
+  .love-feature-img-side {
+    width: auto;
+    margin: auto;
+  }
+  .artitect-button-box {
+    position: revert;
+    margin-top: 19px;
+    width: 279px;
+    height: 168px;
+  }
+
+  /*  */
+  /* Some facts */
+  .some-fects-texts {
+    width: auto;
+    padding: 10px 33px;
+  }
+  .some-facts-icon-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  /*  */
+  /* Sponsor responsive */
+  .sponspors-img-box {
+    flex-direction: row;
+    gap: 47px;
+    flex-wrap: wrap;
+  }
+  .sponspors-img-box img {
+    width: 30%;
+  }
+  .sponsor-title-box {
+    width: auto;
+  }
+  /*  */
+
+  /* Contact responsive */
+  section.contact {
+    padding: 20px;
+  }
+  .contact-text {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  input[type="email"] {
+    margin-top: 15px;
+  }
+  .contact-form form textarea {
+    width: 83%;
+  }
+  /*  */
+
+  /*  */
+  /*  */
 }
+
+/*  */
