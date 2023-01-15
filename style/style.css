@@ -364,6 +364,7 @@ h6.footer-copy-right {
   }
   .container {
     width: 100%;
+    padding: 46px 0;
   }
 
   /* Header responsive */
@@ -417,6 +418,9 @@ h6.footer-copy-right {
   }
   /*  */
   /* Love feature */
+  .love-feature-container {
+    gap: 43px;
+  }
   .love-feature-text {
     width: auto;
     /* padding: 31px 41px; */
@@ -491,6 +495,7 @@ h6.footer-copy-right {
   }
   .container {
     width: 100%;
+    padding: 60px 0;
   }
 
   /* Header responsive */
@@ -545,6 +550,9 @@ h6.footer-copy-right {
   }
   /*  */
   /* Love feature */
+  .love-feature-container {
+    gap: 43px;
+  }
   .love-feature-text {
     width: auto;
     /* padding: 31px 41px; */
