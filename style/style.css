@@ -337,8 +337,13 @@ footer {
   border-radius: 8px;
   padding: 40px 0;
 }
+
 .footer-container {
-  text-align: center;
+  height: 100px;
+  padding: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h6.footer-copy-right {
   font-weight: 400;
