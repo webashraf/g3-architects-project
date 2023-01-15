@@ -368,6 +368,7 @@ h6.footer-copy-right {
   nav {
     justify-content: space-between;
     margin-left: 39px;
+    width: auto;
   }
   .header-banner {
     padding: 100px 0px;
@@ -466,7 +467,11 @@ h6.footer-copy-right {
     width: 83%;
   }
   /*  */
-
+  /* Footer responsive */
+  .footer-container.container {
+    padding: 0 41px;
+  }
+  /*  */
   /*  */
   /*  */
 }
@@ -490,6 +495,7 @@ h6.footer-copy-right {
   nav {
     justify-content: space-between;
     margin-left: 39px;
+    width: auto;
   }
   .header-banner {
     padding: 100px 0px;
